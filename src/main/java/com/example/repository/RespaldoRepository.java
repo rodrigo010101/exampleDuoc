@@ -9,8 +9,7 @@ import com.example.model.Respaldo;
 
 @Repository
 
-public class RespaldoRepository extends JPARepository<Respaldo, Integer> {
+public interface RespaldoRepository extends JpaRepository<Respaldo, Integer> {
 
-    private ArrayList<Respaldo> listRespaldos = new ArrayList<>();
 
 }
